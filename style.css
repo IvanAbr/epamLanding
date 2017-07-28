@@ -1,0 +1,111 @@
+nav.navbar-default {
+	background-color: white;
+	border:none;
+	display: flex;
+	justify-content:space-between;
+}
+div.menu-row {
+	display: flex;
+	margin-left:;
+}
+button.navbar-toggle {
+	border: none;
+}
+@media (min-width: 768px) {
+button.navbar-toggle {
+    display:block;
+}
+.logo {
+	margin-left:;
+}
+.logo-img {
+	margin-top: 8%;
+}
+.number {
+	padding:;
+	border: 1px solid yellow;
+	background: yellow;
+	border-radius: 2px;
+}
+.login {
+	width: 10%;
+}
+.login-img {
+	width:70%;
+}
+.left-head {
+	display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.right-head {
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-image {
+	background: url(images/banner.png) center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 430px;
+}
+.instraction {
+	display: flex;
+	justify-content: space-around;
+	padding-top:5%;
+	padding-bottom: 10%; 
+}
+.item1 {
+	background:url(images/cloud.png) center;
+	background-repeat: no-repeat;
+}
+.item2 {
+	background:url(images/screen.png) center;
+	background-repeat: no-repeat;
+}
+.item3 {
+	background:url(images/hand.png) center;
+	background-repeat: no-repeat;
+}
+.item4 {
+	background:url(images/truck.png) center;
+	background-repeat: no-repeat;
+}
+.advantage_cover {
+	background: #f3f0e7;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 10%; 
+}
+.advantage {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-bottom: 10%; 
+}
+.import {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background: url(images/round_adv.png) no-repeat;
+	background-size: auto 280px;
+}
+.import-img {
+	margin-top: 37px;
+    margin-left: 37px;
+}
+.edit {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background: url(images/kitty.png) no-repeat -70px 0px;
+    background-size: auto 280px;
+}
+.template {
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	background: url(images/template.png) no-repeat -20px -30px;
+    background-size: auto;
+}
