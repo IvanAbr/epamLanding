@@ -12,8 +12,43 @@ body {
 	align-items: center;
 	border: 1px solid red;
 }
+
+#nav-toggle { cursor: pointer; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 4px;
+  width: 35px;
+  background: grey;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
 .logo {
 	padding-left: 65px;
+	padding-top: 5px;
 }
 .logo-img {
 	
@@ -32,6 +67,8 @@ body {
 .left-head {
 	display: flex;
 	margin-left: 160px;
+	justify-content: center;
+    align-items: center;
 }
 .right-head {
 	display: flex;
